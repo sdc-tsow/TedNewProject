@@ -1,0 +1,19 @@
+{
+    "release": {
+      "branches": ["master","main"],
+      "debug": false,
+      "ci": true,
+      "dryRun": false,
+      "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/github"
+      ]
+    },
+    "devDependencies": {
+        "@semantic-release/commit-analyzer": "^11.1.0",
+        "@semantic-release/github": "^9.2.6",
+        "@semantic-release/release-notes-generator": "^12.1.0",
+        "semantic-release": "^23.0.2"
+      }
+    }
